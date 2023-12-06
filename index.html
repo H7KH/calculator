@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="icon" href="images/calculation.svg" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" class="display" />
+      <div class="buttons">
+        <button class="operator-btn operator-btn__clear" data-value="AC">
+          AC
+        </button>
+        <button class="operator-btn operator-btn__delete" data-value="DEL">
+          <img
+            src="images/delete.svg"
+            alt="delete"
+            style="margin-right: 0.4rem"
+          />
+        </button>
+        <button class="operator-btn" data-value="%">
+          <img src="images/percentage-filled.svg" alt="percentage" />
+        </button>
+        <button class="operator-btn" data-value="/">
+          <img src="images/division.svg" alt="division" />
+        </button>
+        <button class="number-btn" data-value="7">7</button>
+        <button class="number-btn" data-value="8">8</button>
+        <button class="number-btn" data-value="9">9</button>
+        <button class="operator-btn" data-value="*">
+          <img src="images/multiple.svg" alt="multiple" />
+        </button>
+        <button class="number-btn" data-value="4">4</button>
+        <button class="number-btn" data-value="5">5</button>
+        <button class="number-btn" data-value="6">6</button>
+        <button class="operator-btn operator-btn__minus" data-value="-">
+          <img src="images/subtract.svg" alt="subtract" />
+        </button>
+        <button class="number-btn" data-value="1">1</button>
+        <button class="number-btn" data-value="2">2</button>
+        <button class="number-btn" data-value="3">3</button>
+        <button class="operator-btn operator-btn__plus" data-value="+">
+          <img src="images/plus.svg" alt="plus" />
+        </button>
+        <button class="number-btn" data-value="0">0</button>
+        <button class="number-btn" data-value="00">00</button>
+        <button class="number-btn" data-value=".">.</button>
+        <button
+          type="submit"
+          class="operator-btn operator-btn__equal"
+          data-value="="
+        >
+          <img src="images/equal.svg" alt="equal" />
+        </button>
+      </div>
+    </div>
+    <script src="project.js"></script>
+  </body>
+</html>
